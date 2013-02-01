@@ -1,0 +1,11 @@
+run
+compile
+run
+compile
+run
+compile
+ http://oss.sonatype.org/content/repositories/snapshots/com/mongod
+compile
+run
+compile
+run
