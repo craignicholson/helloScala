@@ -6,8 +6,8 @@ object Hi
 
 	//attempt to query mongo
 	//http://stackoverflow.com/questions/11681365/scala-mongodb-how-to
-val mongoColl = MongoConnection()("casbah_test")("test_data")
-val user1 = MongoDBObject("user" -> "bwmcadams",
+  val mongoColl = MongoConnection()("casbah_test")("test_data")
+  val user1 = MongoDBObject("user" -> "bwmcadams",
                           "email" -> "~~brendan~~<AT>10genDOTcom")
 val user2 = MongoDBObject("user" -> "someOtherUser")
 mongoColl += user1
